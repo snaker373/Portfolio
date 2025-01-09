@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background: #555;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        .song {
+            background: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .song h3 {
+            margin: 0;
+        }
+        .song audio {
+            margin-top: 10px;
+            width: 100%;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Music Website</h1>
+    </header>
+    <nav>
+        <a href="musik.html">Home</a>
+        <a href="musik.html">Songs</a>
+        <a href="bio.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <section id="songs">
+            <h2>Featured Songs</h2>
+            <div class="song">
+                <h3>Salvatore Ganacci - Your Mother</h3>
+                <audio controls>
+                    <source src="Salvatore Ganacci - Your Mother (Official Music Video).mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="song">
+                <h3>Salvatore Ganacci - Take Me To America</h3>
+                <audio controls>
+                    <source src="Salvatore Ganacci - Take Me To America (Official Music Video).mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Music Website German Ryndia. All rights reserved.</p>
+    </footer>
+</body>
+</html>
